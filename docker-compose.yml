@@ -66,6 +66,8 @@ services:
       start_period: 60s
 
   flask-app:
+    build: .
+
     image: my-app
     container_name: flask-app
     ports:
