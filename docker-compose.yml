@@ -69,7 +69,7 @@ services:
     image: my-app
     container_name: flask-app
     ports:
-      - "5001:5001"
+      - "5001:5000"
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: root
