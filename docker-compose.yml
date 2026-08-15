@@ -66,9 +66,8 @@ services:
       start_period: 60s
 
   flask-app:
-    build: .
-
-    image: my-app
+  
+    image: altaf2412/two-tier-flask-app
     container_name: flask-app
     ports:
       - "5001:5001"
