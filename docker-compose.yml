@@ -67,7 +67,7 @@ services:
 
   flask-app:
   
-    image: altaf2412/two-tier-flask-app
+    image: altaf2412/two-tier-flask-app:latest
     container_name: flask-app
     ports:
       - "5001:5001"
