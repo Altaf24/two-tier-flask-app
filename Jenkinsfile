@@ -62,8 +62,8 @@
 //     }
 // }
 pipeline {
-    // agent {label "dev"};
-    agent any;
+    agent {label "dev"};
+    
 
     stages {
 
